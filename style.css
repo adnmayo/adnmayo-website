@@ -1,0 +1,23 @@
+.headertext {
+    font-size: 20;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s, steps(15), cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
