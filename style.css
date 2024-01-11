@@ -15,18 +15,20 @@ body {
 
 .typewriter {
     overflow: hidden;
-    border-right: .15em white;
+    border-right: .15em solid white;
     white-space: nowrap;
     font-size: 60px;
     width: 0;
     animation: 
-        typing 1s steps(18, end) forwards,
+        typing 1s steps(17, end) forwards,
         blink .8s infinite;
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    0% { width: 0 }
+    20% { width: 20%}
+    50% { width: 20%}
+    100% { width: 100% }
 }
 
 @keyframes blink {
