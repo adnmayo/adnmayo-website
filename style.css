@@ -16,3 +16,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
