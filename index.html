@@ -17,11 +17,20 @@
 
     <body>
         <div class="container">
-            <h1>Hi! I'm Adrian.</h1>
+            <h1><span class="typewriter"></span></h1>
         </div>
-        <nav class="navBar">
 
-        </nav>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed(".typewriter", {
+                strings:  ["Hi! I'm Adrian.",  "Welcome to my world of shenanigans."],
+                typeSpeed: 150,
+                backSpeed: 200,
+                loop: true
+            })
+        </script>
+
     </body>
 
 </html>
