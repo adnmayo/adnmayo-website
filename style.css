@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
     background: #2b323c;
     color: white;
-    font-size: 20;
-    letter-spacing: 5px;
-    font-family: 'Poppins', sans-serif;
-    border-right: 5px solid;
     width: 100%;
+    height: 100vh;
     /* white-space: nowrap;
     overflow: hidden;
     animation:
