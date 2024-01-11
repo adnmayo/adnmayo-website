@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.headerText {
+.container {
     background-color: #2b323c;
     color: white;
     font-size: 20;
@@ -13,10 +13,10 @@
     font-family: 'Poppins', sans-serif;
     border-right: 5px solid;
     width: 100%;
-    white-space: nowrap;
+    /* white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 2s, steps(15), cursor .4s step-end infinite alternate;
+        typing 2s, steps(15), cursor .4s step-end infinite alternate; */
 }
 
 @keyframes cursor {
