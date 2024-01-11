@@ -1,4 +1,13 @@
-.text {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerText {
+    background-color: #2b323c;
+    color: white;
     font-size: 20;
     letter-spacing: 5px;
     font-family: 'Poppins', sans-serif;
