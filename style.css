@@ -72,16 +72,28 @@
     text-align: start;
     white-space: nowrap;
 }
-  
-.headercontainer {
+
+.header1 {
     display: flex;
     color: white;
     height: 100vh;
     align-items: center;
     justify-content: center;
 }
+
+.header2 {
+    display: flex;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 1%;
+}
   
-.typewriter {
+h1 .typewriter1 {
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
@@ -90,6 +102,18 @@
     animation: 
         typing 1s steps(10, end) forwards,
         blink .8s infinite;
+}
+
+h1 .typewriter2 {
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    font-size: 40px;
+    max-width: 400px;
+    animation: 
+        typing 1s steps(10, end) forwards;
+    animation-delay: 1s;
+        /* blink .8s infinite; */
 }
   
   @keyframes typing {
