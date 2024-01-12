@@ -10,67 +10,6 @@
       background: #2b323c;
   }
   
-  .navbarcontainer {
-      margin: 10px;
-  }
-  
-  .navbarcontainer .sidebarbutton {
-      width: calc(100% - 20px);
-      height: 60px;
-      display: flex;
-      position: fixed;
-      top: 10px;
-  }
-  
-  .navbarcontainer .sidebarbutton .menuinteract {
-      width: 70px;
-      height: 100%;
-      background: #1a1d23;
-      padding: 15px 17px;
-      border-top-left-radius: 20px;
-      cursor: pointer;
-  }
-  
-  .navbarcontainer .sidebarbutton .menuinteract div {
-      width: 70px;
-      height: 12px;
-      background: white;
-      margin: 5px 0;
-      border-radius: 5px;
-  }
-  
-  .navbarcontainer .sidebarmenu {
-      position: fixed;
-      top: 85px;
-      background: #1a1d23;
-      width: 200px;
-      height: calc(100% - 80px);
-      border-bottom-left-radius: 20px;
-      transition: all 0.3s ease;
-  }
-  
-  .navbarcontainer .sidebarmenu ul li a{
-      display: flex;
-      font-size: 20px;
-      padding: 20px;
-      color: #fff;
-      position: relative;
-      margin-bottom: 1px;
-      color: white;
-      white-space: nowrap;
-  }
-  
-  .navbarcointainer .sidebarmenu ul li a:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 3px;
-    height: 100%;
-    background: #92a6e2;
-    display: none;
-  }
-  
   .headercontainer {
       display: inline-block;
       color: white;
