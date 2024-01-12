@@ -74,8 +74,9 @@
 }
   
 .headercontainer {
-    display: inline-block;
+    display: flex;
     color: white;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -85,7 +86,7 @@
     border-right: .15em solid white;
     white-space: nowrap;
     font-size: 60px;
-    width: 0;
+    max-width: 400px;
     animation: 
         typing 1s steps(10, end) forwards,
         blink .8s infinite;
@@ -93,9 +94,9 @@
   
   @keyframes typing {
       0% { width: 0 }
-      20% { width: 20%}
-      50% { width: 20%}
-      100% { width: 100% }
+      20% { width: 80px}
+      50% { width: 80px}
+      100% { width: 400px }
   }
   
   @keyframes blink {
