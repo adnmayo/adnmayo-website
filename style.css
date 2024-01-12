@@ -50,7 +50,8 @@
   }
   
   .navbarcontainer .sidebarmenu ul li a{
-      display: block;
+      display: flex;
+      font-size: 20px;
       padding: 20px;
       color: #fff;
       position: relative;
