@@ -54,6 +54,20 @@
     line-height: 60px;
     text-align: center;
 }
+
+/* .navigation ul li a .icon .fa {
+    font-size: 24px;
+} */
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
   
 .headercontainer {
     display: inline-block;
