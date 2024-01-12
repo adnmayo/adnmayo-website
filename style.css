@@ -93,7 +93,8 @@
 }
   
   @keyframes typing {
-      0% { width: 0 }
+      0% { width: 0px }
+      6% { width: 0px }
       20% { width: 80px}
       50% { width: 80px}
       100% { width: 400px }
