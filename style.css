@@ -37,6 +37,10 @@
     list-style: none;
 }
 
+.navigation ul li:hover {
+    background: #787ba3;
+}
+
 .navigation ul li a {
     position: relative;
     display: block;
