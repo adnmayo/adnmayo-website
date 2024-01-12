@@ -4,11 +4,27 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
   }
   
   body {
       background: #2b323c;
   }
+
+  .navigation {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #1a1d23;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+.navigation:hover {
+  width: 300px;
+}
   
   .headercontainer {
       display: inline-block;
