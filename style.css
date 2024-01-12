@@ -25,24 +25,46 @@
 .navigation:hover {
   width: 300px;
 }
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
   
-  .headercontainer {
-      display: inline-block;
-      color: white;
-      align-items: center;
-      justify-content: center;
-  }
+.headercontainer {
+    display: inline-block;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
   
-  .typewriter {
-      overflow: hidden;
-      border-right: .15em solid white;
-      white-space: nowrap;
-      font-size: 60px;
-      width: 0;
-      animation: 
-          typing 1s steps(10, end) forwards,
-          blink .8s infinite;
-  }
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    font-size: 60px;
+    width: 0;
+    animation: 
+        typing 1s steps(10, end) forwards,
+        blink .8s infinite;
+}
   
   @keyframes typing {
       0% { width: 0 }
