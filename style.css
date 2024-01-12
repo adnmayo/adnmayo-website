@@ -45,6 +45,15 @@
     text-decoration: none;
     color: white;
 }
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
   
 .headercontainer {
     display: inline-block;
