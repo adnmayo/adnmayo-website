@@ -83,14 +83,6 @@
     justify-content: center;
 }
 
-.header2 {
-    display: flex;
-    color: white;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-}
-
 h1 {
     margin-top: 1%;
 }
@@ -98,8 +90,22 @@ h1 {
 h1 #typewriter1 {
     overflow: hidden;
     white-space: nowrap;
-    font-size: 60px;
-    max-width: 400px;
+    font-size: 65px;
+    max-width: 450px;
 }
+
+h1 #typewriter3 {
+    font-size: 40px;
+}
+
+.header1 .arrow {
+    display: flex;
+    color: white;
+    max-width: 100px;
+    font-size: 100px;
+    overflow: hidden;
+}
+
+
   
       
