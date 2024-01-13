@@ -12,3 +12,4 @@ function typeWriter(element, text, delay) {
 	}, delay * (text.length + 6));
 }
 
+
