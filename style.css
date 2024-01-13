@@ -18,6 +18,7 @@
     background: #1a1d23;
     transition: 0.5s;
     overflow: hidden;
+    border-top-right-radius: 20px;
   }
 
 .navigation:hover {
