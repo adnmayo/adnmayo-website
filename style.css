@@ -82,12 +82,25 @@
 h1 #typewriter1 {
     overflow: hidden;
     white-space: nowrap;
+    position: fixed;
     font-size: 65px;
     max-width: 450px;
+    margin-bottom: 40px;
+}
+
+h1 #typewriter2 {
+    position: fixed;
+    margin-top: 50px;
 }
 
 h1 #typewriter3 {
     font-size: 40px;
+    position: fixed;
+    margin-top: 140px;
+}
+
+h1 #typewriter4 {
+    font-size: 20px;
 }
 
 .header1 .arrow {
