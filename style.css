@@ -18,6 +18,21 @@ canvas {
     display: block;
 }
 
+#background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    z-index: 0;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 /* NAVBAR */
   .navigation {
     position: fixed;
@@ -83,11 +98,9 @@ canvas {
     display: flex;
     flex-direction: column;
     color: white;
-    height: 98vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
-    position: relative;
-    z-index: 2;
 }
   
 h1 #typewriter1 {
@@ -112,6 +125,8 @@ h1 #typewriter3 {
 
 h1 #typewriter4 {
     font-size: 20px;
+    position: fixed;
+    margin-top: 600px;
 }
 
 .header1 .arrow {
