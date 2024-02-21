@@ -11,5 +11,3 @@ function typeWriter(element, text, delay) {
 		$(element).text(tmp);
 	}, delay * (text.length + 6));
 }
-
-

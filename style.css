@@ -1,4 +1,4 @@
-/* #1a1d23 */
+/* #1a1d23 - colour */
 
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -7,10 +7,18 @@
     padding: 0; 
   }
   
-  body {
-      background: #2b323c;
-  }
+body {
+    background: #2b323c;
+    width: 100%;
+    height: 100%;
+}
 
+/* BACKGROUND */
+canvas {
+    display: block;
+}
+
+/* NAVBAR */
   .navigation {
     position: fixed;
     width: 60px;
@@ -70,6 +78,7 @@
     white-space: nowrap;
 }
 
+/* INDEX TEXT */
 .header1 {
     display: flex;
     flex-direction: column;
@@ -77,6 +86,8 @@
     height: 98vh;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
 }
   
 h1 #typewriter1 {
@@ -110,6 +121,7 @@ h1 #typewriter4 {
     font-size: 100px;
     overflow: hidden;
 }
+
 
 
   
