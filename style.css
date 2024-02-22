@@ -36,6 +36,8 @@ canvas {
 /* NAVBAR */
   .navigation {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     width: 60px;
     height: 100%;
     background: #1a1d23;
@@ -52,9 +54,8 @@ canvas {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 100vh;
+    height: 100vh;
 }
 
 .navigation .buttonContainer .topButton {
@@ -94,11 +95,10 @@ canvas {
 }
 
 .navigation .buttonContainer .spanishButton {
-    position: relative;
-    width: 100%;
+    width: 100vh;
     list-style: none;
-    margin-top: auto;
-    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navigation .buttonContainer .spanishButton:hover {
@@ -107,8 +107,9 @@ canvas {
 
 .navigation .buttonContainer .spanishButton a {
     position: relative;
-    width: 100%;
+    width: 100vh;
     display: flex;
+    justify-content: flex-start;
     text-decoration: none;
     color: white;
 }
@@ -147,7 +148,7 @@ h1 #typewriter1 {
     white-space: nowrap;
     position: fixed;
     font-size: 65px;
-    max-width: 450px;
+    max-width: auto;
     margin-bottom: 80px;
 }
 
