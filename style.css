@@ -36,8 +36,6 @@ canvas {
 /* NAVBAR */
   .navigation {
     position: fixed;
-    display: flex;
-    flex-direction: column;
     width: 60px;
     height: 100%;
     background: #1a1d23;
@@ -52,8 +50,6 @@ canvas {
 
 .navigation .buttonContainer {
     position: absolute;
-    display: flex;
-    flex-direction: column;
     width: 100vh;
     height: 100vh;
 }
@@ -97,8 +93,8 @@ canvas {
 .navigation .buttonContainer .spanishButton {
     width: 100vh;
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
 }
 
 .navigation .buttonContainer .spanishButton:hover {
