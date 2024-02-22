@@ -52,6 +52,7 @@ canvas {
     position: absolute;
     width: 100vh;
     height: 100vh;
+    overflow: hidden;
 }
 
 .navigation .buttonContainer .topButton {
