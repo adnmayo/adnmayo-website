@@ -97,6 +97,8 @@ canvas {
     position: relative;
     width: 100%;
     list-style: none;
+    margin-top: auto;
+    bottom: 0;
 }
 
 .navigation .buttonContainer .spanishButton:hover {
@@ -146,24 +148,24 @@ h1 #typewriter1 {
     position: fixed;
     font-size: 65px;
     max-width: 450px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 h1 #typewriter2 {
     position: fixed;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 h1 #typewriter3 {
     font-size: 40px;
     position: fixed;
-    margin-top: 140px;
+    margin-top: 120px;
 }
 
 h1 #typewriter4 {
     font-size: 20px;
     position: fixed;
-    margin-top: 400px;
+    margin-top: 440px;
 }
 
 .header1 .arrow {
