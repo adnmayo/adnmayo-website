@@ -180,7 +180,14 @@ h1 #typewriter4 {
     color: white;
     height: auto;
     justify-content: center;
+}
 
+.aboutHeader #aboutTypewriter {
+    margin-top: 25px;
+    font-size: 65px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
 }
 
   

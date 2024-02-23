@@ -1,3 +1,3 @@
 $(document).ready(() => {
-    typeWriter("#typewriter1", "Get to know me.", 100)
+    typeWriter("#aboutTypewriter", "Get to know me", 100)
 });
