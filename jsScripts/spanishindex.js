@@ -1,13 +1,13 @@
 $(document).ready(() => {
-    typeWriter("#typewriter1", "Hola! Soy Adrian.", 60);
+    typeWriter("#typewriter1", "¡Hola! Soy Adrián.", 60);
 	setTimeout(function() {
-		typeWriter("#typewriter2", "Bienvenidos a mi rincon del Internet.", 40);
+		typeWriter("#typewriter2", "Bienvenidos a mi rincón del Internet.", 40);
 	}, 1600);
     setTimeout(function() {
-		typeWriter("#typewriter3", "Ingenieria de Software @ UTS", 40);
+		typeWriter("#typewriter3", "Ingeniería de Software @ UTS", 40);
 	}, 3500);
 	setTimeout(function() {
-		typeWriter("#typewriter4", "Guiate usando el menu a la izquierda", 30)
+		typeWriter("#typewriter4", "Guíate usando el menú a la izquierda", 30)
 	}, 5000);
 });
 
