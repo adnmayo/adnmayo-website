@@ -138,11 +138,12 @@ canvas {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 90px;
+    padding-right: 30px;
 }
 
 .header2 h2 {
-    margin-bottom: 120px;
+    margin-bottom: 25px;
 }
 
 h2 {

@@ -5,4 +5,12 @@ $(document).ready(() => {
     setTimeout(() => {
         fadeIn(aboutme1);
     }, 1200);
+    const aboutme2 = document.getElementById('aboutme2');
+    setTimeout(() => {
+        fadeIn(aboutme2);
+    }, 2400);
+    const aboutme3 = document.getElementById('aboutme3');
+    setTimeout(() => {
+        fadeIn(aboutme3);
+    }, 3600);
 });
