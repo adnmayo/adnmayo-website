@@ -11,3 +11,7 @@ function typeWriter(element, text, delay) {
 		$(element).text(tmp);
 	}, delay * (text.length + 6));
 }
+
+function fadeIn(element) {
+    element.classList.add('fadeIn');
+}

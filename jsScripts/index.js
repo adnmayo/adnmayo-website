@@ -7,7 +7,7 @@ $(document).ready(() => {
 		typeWriter("#typewriter3", "Software Engineering @ UTS", 40);
 	}, 3500);
 	setTimeout(function() {
-		typeWriter("#typewriter4", "Roam around using the navigation menu to the left", 30)
+		typeWriter("#typewriter4", "Roam around using the navigation menu to the left", 35)
 	}, 5000);
 });
 
