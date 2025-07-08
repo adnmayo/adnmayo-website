@@ -220,5 +220,105 @@ h1 #typewriter4 {
     position: fixed;
 }
 
+/* QUIROZ 2025 STYLES */
+.trip-table-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    overflow-x: auto;
+    background: rgba(26, 29, 35, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
 
-      
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    font-size: 16px;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #787ba3;
+}
+
+.trip-table th {
+    background: #1a1d23;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #787ba3;
+}
+
+.trip-table tr:hover {
+    background: rgba(120, 123, 163, 0.2);
+    transition: background 0.3s ease;
+}
+
+.trip-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.trip-notes {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(26, 29, 35, 0.6);
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trip-notes h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.trip-notes ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.trip-notes li {
+    padding: 12px 15px 12px 35px;
+    border-bottom: 1px solid rgba(120, 123, 163, 0.3);
+    position: relative;
+    line-height: 1.5;
+}
+
+.trip-notes li:before {
+    content: "✈️";
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.trip-notes li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .trip-table-container {
+        padding: 10px;
+        margin: 20px 10px;
+    }
+    
+    .trip-table {
+        font-size: 14px;
+    }
+    
+    .trip-table th,
+    .trip-table td {
+        padding: 8px 10px;
+    }
+}
+
+/* FIN DE QUIROZ */
+
