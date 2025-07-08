@@ -211,5 +211,21 @@ h1 #typewriter4 {
     position: fixed;
 }
 
-  
+/* WORK & PROJECTS */
+.workHeader {
+    display: flex;
+    color: white;
+    height: auto;
+    justify-content: center;
+}
+
+.workHeader #workTypewriter {
+    margin-top: 25px;
+    font-size: 65px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+}
+
+
       
