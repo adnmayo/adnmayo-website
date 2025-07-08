@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    typeWriter("#aboutTypewriter", "Get To Know Me", 80)
+    typeWriter("#headerTypewriter", "Get To Know Me", 80)
 
     const aboutme1 = document.getElementById('aboutme1');
     setTimeout(() => {

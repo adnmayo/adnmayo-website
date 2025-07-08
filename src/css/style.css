@@ -195,15 +195,15 @@ h1 #typewriter4 {
     margin-top: 440px;
 }
 
-/* ABOUT ME */
-.aboutHeader {
+.pageHeader {
     display: flex;
     color: white;
     height: auto;
     justify-content: center;
 }
 
-.aboutHeader #aboutTypewriter {
+/* ABOUT ME */
+.pageHeader #headerTypewriter {
     margin-top: 25px;
     font-size: 65px;
     overflow: hidden;
@@ -212,14 +212,7 @@ h1 #typewriter4 {
 }
 
 /* WORK & PROJECTS */
-.workHeader {
-    display: flex;
-    color: white;
-    height: auto;
-    justify-content: center;
-}
-
-.workHeader #workTypewriter {
+.pageHeader #workTypewriter {
     margin-top: 25px;
     font-size: 65px;
     overflow: hidden;
