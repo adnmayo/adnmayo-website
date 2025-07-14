@@ -262,6 +262,19 @@ h1 #typewriter4 {
     border-bottom: none;
 }
 
+/* Flight status styling */
+.trip-table td a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.trip-table td a:hover {
+    color: #66BB6A;
+    text-decoration: underline;
+}
+
 .trip-notes {
     margin-top: 30px;
     padding: 20px;
