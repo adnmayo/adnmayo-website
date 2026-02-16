@@ -91,44 +91,6 @@ canvas {
     white-space: nowrap;
 }
 
-.navigation .buttonContainer .spanishButton {
-    width: 100vh;
-    list-style: none;
-    position: absolute;
-    bottom: 0;
-}
-
-.navigation .buttonContainer .spanishButton:hover {
-    background: #787ba3;
-}
-
-.navigation .buttonContainer .spanishButton a {
-    position: relative;
-    width: 100vh;
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-    color: white;
-}
-
-.navigation .buttonContainer .spanishButton a .icon {
-    position: relative;
-    min-width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-}
-
-.navigation .buttonContainer .spanishButton a .title {
-    position: relative;
-    display: block;
-    padding: 0 10px;
-    height: 60px;
-    line-height: 60px;
-    text-align: start;
-    white-space: nowrap;
-}
-
 /* FADE-IN EFFECT */
 .header2 {
     display: flex;

@@ -1,3 +1,3 @@
 $(document).ready(() => {
-    typeWriter("#headerTypewriter", "My Work & Projects", 80)
+    typeWriter("#headerTypewriter", "My Work & Projects", 80);
 });
