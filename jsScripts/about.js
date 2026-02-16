@@ -1,15 +1,27 @@
-$(document).ready(() => {
-    typeWriter("#headerTypewriter", "Get To Know Me", 80);
-    const aboutme1 = document.getElementById("aboutme1");
+document.addEventListener("DOMContentLoaded", () => {
+    const headerText = "Get To Know Me";
+    const typewriterDelay = 80;
+    const headerTypewriter = document.getElementById("headerTypewriter");
+    const aboutPortfolioBox = document.getElementById("aboutPortfolioBox");
+
+    if (!aboutPortfolioBox) {
+        return;
+    }
+
+    let headerFinishDelay = typewriterDelay * (headerText.length + 6);
+
+    if (typeof typeWriter === "function" && headerTypewriter) {
+        typeWriter("#headerTypewriter", headerText, typewriterDelay);
+    } else if (headerTypewriter) {
+        headerTypewriter.textContent = headerText;
+        headerFinishDelay = 600;
+    }
+
     setTimeout(() => {
-        fadeIn(aboutme1);
-    }, 1200);
-    const aboutme2 = document.getElementById("aboutme2");
-    setTimeout(() => {
-        fadeIn(aboutme2);
-    }, 2400);
-    const aboutme3 = document.getElementById("aboutme3");
-    setTimeout(() => {
-        fadeIn(aboutme3);
-    }, 3600);
+        if (typeof fadeIn === "function") {
+            fadeIn(aboutPortfolioBox);
+            return;
+        }
+        aboutPortfolioBox.classList.add("fadeIn");
+    }, headerFinishDelay);
 });
